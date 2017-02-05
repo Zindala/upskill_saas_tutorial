@@ -14,8 +14,11 @@
  *= require_self
  */
  
- @import 'bootstrap-sprockets';
- @import 'bootstrap';
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
  
 .navbar, .home-callout {
      //gradient provided by @ A little thing by @_ighosh
