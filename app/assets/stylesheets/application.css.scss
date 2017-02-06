@@ -31,6 +31,7 @@ h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
+//NavStyles
 .navbar {
     border: none;
 }
@@ -49,6 +50,19 @@ h1, h2, h3 {
     }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    &:hover, &:focus{
+      background-color:#00c6ff;
+    }
+}
+
+
+//HomePage Styles
 .home-callout {
     margin-top: -20px;
     padding-top: 50px;
