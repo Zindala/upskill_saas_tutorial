@@ -53,7 +53,6 @@ $(document).on('turbolinks:load', function(){
       }, stripeResponseHandler);
     }
        
-
     return false;
   });
   
